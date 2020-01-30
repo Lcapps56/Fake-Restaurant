@@ -1,0 +1,400 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    min-width: 100%;
+    font-family: 'Bebas Neue', cursive;
+}
+
+#landing{
+    margin: 0px;
+    padding: 0px;
+    height: 700px;
+    width: 100%;
+    background-image: url("../images/restaurantBG.jpg");
+    background-position: center;
+    background-size: cover;
+
+}
+nav h1{
+    display: inline-block;
+    color: white;
+    font-size: 45px;
+    margin: 15px 50px;
+}
+nav{
+    margin: 15px 50px;   
+    margin-top: 0px;    
+}
+nav ul{
+    float: right;
+    padding-top: 15px;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0px 15px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+    font-size: 23px;
+}
+#Hsection{
+    margin: 200px 120px;
+
+}
+#slogan{
+    color: white;
+    font-size: 100px;
+    font-weight: lighter;
+    display: block;
+    margin-bottom: 0px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 10px;
+}
+.Hbtn{
+    background: none;
+    border: white 1px solid;
+    padding: 5px 8px;
+    margin-right: 40px;
+    margin-top: 0px;
+    color: white;
+    font-size: 18px;    
+    font-weight: lighter;
+    font-family: 'Roboto', sans-serif;
+    transition: .5s;
+}
+.Hbtn:hover{
+    background: white;
+    color: black;
+    font-size: 22px;
+}
+/* end head styles */
+
+/* begin section 1 styles */
+#S1{
+    height: 400px;
+    background: #F5F3F1;
+    padding: 120px;
+}
+section img{
+    height: 350px;
+    width: 40%;
+    float: left;
+    margin-left: 50px;
+}
+#Sinfo{
+    width: 35%;
+    float: right;
+    margin: 80px 0px;
+    margin-right: 150px
+    /* padding: 0px 80px;     */
+}
+#Sinfo h3{
+    font-size: 38px;
+    margin: 0px;
+}
+#Sinfo p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+/* end section 1 styles */
+
+/* begin menu styles */
+#menu{
+    background: white;  
+    height: 700px;
+    padding: 0px 0px; 
+    margin-bottom: 200px;
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;  
+}
+
+#menu h1{
+    margin: 50px;
+    margin-bottom: 0px;
+    font-size: 55px; 
+    font-family: 'Bebas Neue', cursive;
+    font-weight: lighter;
+  
+}
+#menu p{
+    font-size: 19px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+
+.item{
+    height: 650px;
+    width: 17%;
+    display: inline-block;
+    margin: 0px 10px;
+    background-size: cover;
+    background-position: center; 
+    transition-delay: 1s;
+    transition: 1s
+
+}
+
+.title{
+    padding-top: 80px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    font-weight: lighter;
+    
+}
+#pizza {
+    background-image: url("../images/pizzaBGBlack.jpg"); 
+}
+#pizza:hover {
+    background-image: url("../images/shallow-focus-photography-of-several-pizzas-1566837.jpg"); 
+    width: 20%;
+}
+#pasta {
+    background-image: url("../images/pastaBGBlack.jpg"); 
+}
+#pasta:hover {
+    background-image: url("../images/cooked-pasta-on-brown-wooden-bowl-803963.jpg"); 
+    width: 20%;
+}
+#salad {
+    background-image: url("../images/saladBGBlack.jpg");
+}
+#salad:hover {
+    background-image: url("../images/appetizer-close-up-cuisine-delicious-434258.jpg");
+    width: 20%;
+
+}
+
+#wine{
+    background-image: url("../images/WingBGBlack.jpg");
+}
+#wine:hover{
+    background-image: url("../images/wine.jpg");
+    width: 20%;
+
+}
+#apps{
+    background-image: url("../images/appetizersBGBlack.jpg");
+}
+#apps:hover{
+    background-image: url("../images/appetizers.jpg");
+    width: 20%;
+}
+
+
+/* end menu styles */
+
+/* begin reservation styles */
+#reserve{
+    background-image: url("../images/alcohol-architecture-bar-beer-260922.jpg");
+    background-size: cover; 
+    background-position: center;
+    /* background: red; */
+    height: 400px;
+    width: 100%;
+    margin-bottom: 150px;   
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+}
+#Rinfo h1{
+    margin-bottom: 10px;
+}   
+#Rinfo{
+    padding: 150px;
+    margin-bottom: 0px;
+    font-size: 35px;
+    color: white;
+    font-weight: lighter;
+}
+#Rinfo button{
+    background: none;
+    border: solid 1px white;
+    color: white;
+    padding: 8px 25px;
+    font-size: 16px;
+    font-weight: lighter;
+    transition: .5s;
+}
+#Rinfo button:hover{
+    background: white;
+    color:   black;
+}
+/* end reservation styles */
+
+/* begin gallery styles */
+#gallery{
+    height: 100%;
+    max-height: 900px;
+    width: 100%;
+    background: #f7f7f7; 
+    margin: 0px;
+    margin-bottom: 100px;
+    padding: 0px;   
+}
+.row{
+    display: inline-block;
+    width: 33.2%;
+    height: 100%;
+    overflow: auto;
+    margin: 0px;
+    padding: 0px;   
+}
+.img{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    margin-bottom: 4px;
+
+}
+#img1{
+    background-image: url("../images/shallow-focus-photography-of-several-pizzas-1566837.jpg");
+    height: 400px;
+}
+#img2{
+    background-image: url("../images/appetizer-close-up-cuisine-delicious-434258.jpg");
+    height: 300px;
+}
+#img3{
+    background-image: url("../images/gallery3.jpg");
+    height: 250px;
+}
+#img4{
+    background-image: url("../images/gallery1.jpg");
+    height: 450px;
+}
+
+#img5{
+    background-image: url("../images/gallery2.jpg");
+    height: 350px;
+}
+#img6{
+    background-image: url("../images/restaurantBG.jpg");
+    height: 350px;
+}
+/* end gallery styles */
+
+/* begin contact syles */
+
+#contact{
+    text-align: center;
+    margin: auto;
+    margin-bottom: 100px;
+}
+#contact p{
+    font-family: 'Roboto', sans-serif;
+
+}
+#contact h1{
+    font-size: 35px;
+    margin-bottom: 0px;
+}
+#info{
+    text-align: center;
+    margin: auto;
+    font-size: 20px;    
+}
+#emails, #phone, #address{
+    display: inline-block;
+    padding: 20px;
+    margin: 20px 100px;  
+    text-align: center;     
+}
+
+footer{
+    background: rgb(0, 0, 34);
+    height: 150px;
+}
+
+@media only screen and (max-width: 1025px){
+   
+    #Sinfo{
+        margin: 0px;
+        margin-right: 20px;
+    }
+    #Sinfo h3{
+        font-size: 38px;
+        margin: 0px;
+    }
+    #Sinfo p{
+        margin: 0px;
+    }
+
+    .row{
+        width: 33%;
+    }
+
+    #emails, #phone, #address{
+        margin: 20px 50px;  
+    }
+}
+@media only screen and (max-width: 425px){
+    #landing{
+        text-align: center;
+
+    }
+    ul {
+        display: none;
+    }
+    #hamburger{
+        display: block;
+        height: 50px;
+        width: 50px;
+        background: black;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+    #slogan{
+        margin: 0px;
+        margin-top: -80px;
+    }
+    .Hbtn{
+        margin: 8px;
+    }
+    #menu{
+        margin: 0px;
+        height: 500px;
+    }
+    .item{
+        margin: 0px;
+        height: 300px;
+    }
+    .title{
+        font-size: 16px;
+    }
+    #S1{
+        padding: 20px;
+    }
+    #Sinfo{
+        width: 80%;
+    }
+    #Sinfo h3{
+        font-size: 18px;
+    }
+    #Sinfo p{
+        font-size: 15px;
+    }
+    #Simg img{
+        margin: 0px;
+        margin-bottom: 20px;
+        height: 180px;
+        width: 100%;  
+    }
+    #reserve{
+        padding: 20px;
+    }
+    #Rinfo{
+        padding: 20px;
+    }
+    .row{
+        width: 32%;
+    }
+}
